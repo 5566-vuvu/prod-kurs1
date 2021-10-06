@@ -1,0 +1,115 @@
+:root {
+    font-size: 16px;
+}
+body{
+    font-family: 'Jost', sans-serif;
+    color: #27300f;
+}
+.title {
+    font-family: 'Cormorant', serif;
+    font-size: 5rem;
+}
+span {
+    font-style: italic;
+}
+.btn {
+    color: #ffffff;
+    background-color: #d26a22;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.3rem 2.68rem;
+    border-radius: 2rem;
+    letter-spacing: 0.075rem;
+}
+.wrapper {
+    max-width: 1440px;
+    margin:0 auto;
+}
+
+.section-main {
+    background-image: url(img/background\ 1\ screen\ mob.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main {
+
+}
+.main-text {
+
+}
+.main-text_description {
+font-size: 1.12rem;
+line-height: 1.5;
+}
+.header {
+    max-width: 1440px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_tel {
+    text-decoration: none;
+    color: #27300f;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.header_tel:hover {
+    color: #d26a22;
+}
+.header-cart {
+position: relative;
+width: 2.5rem;
+height: 2.5rem;
+margin-left: 82px;
+}
+
+.header-cart_button {
+width: 2.5rem;
+height: 2.5rem;
+background-color: #d26a22;
+border: none;
+border-radius: 100%;
+background-image: url();
+background-size: 1rem 0.87rem;
+background-repeat: no-repeat;
+background-position: center center;
+}
+.header-cart_count {
+    position: absolute;
+    top: 6px;
+    right: 9px;
+    font-size: 0.5rem;
+    color: #ffffff;
+}
+.logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(img/logo.svg);
+    width: 120px;
+    height: 32px;
+    margin-right: 120px;
+}
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item {
+    margin-right: 48px;
+}
+.nav-link {
+    text-decoration: none;
+    color: #27300f;
+    transition: 0.3s ease;
+}
+.nav-link:hover {
+    color: #d26a22;
+}
